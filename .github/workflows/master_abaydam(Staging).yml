@@ -7,7 +7,7 @@ name: Build and deploy Python app to Azure Web App - abaydam(Staging)
 on:
   push:
     branches:
-      - master
+      - Staging
   workflow_dispatch:
 
 jobs:
